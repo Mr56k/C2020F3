@@ -61,6 +61,10 @@
 
 ---
 
+![height=500px](https://www.sternwarte-hof.de/wetter.gif)
+
+---
+
 ## INFORMATIONEN
 #### www.sternwarte-hof.de/de/komet-neowise
 

@@ -1,39 +1,63 @@
 ---?image=assets/img/neowise3.jpg
-# Der Komet **NEOWISE**
+
+@snap[east span-80]
+# KOMET **NEOWISE**
+@snapend
 
 ---?image=assets/img/neowise1.jpg
 
 ---
-@snap[north-east span-100 text-pink text-06]
-Let your code do the talking!
+# C/2020 F3
+
+---?image=assets/img/PIA12011.jpg?position=bottom&size=40%
+
+@snap[north span-100]
+# NEO**WISE**
 @snapend
 
-```sql zoom-18
-CREATE TABLE "topic" (
-    "id" serial NOT NULL PRIMARY KEY,
-    "forum_id" integer NOT NULL,
-    "subject" varchar(255) NOT NULL
-);
-ALTER TABLE "topic"
-ADD CONSTRAINT forum_id
-FOREIGN KEY ("forum_id")
-REFERENCES "forum" ("id");
-```
+---
 
-@snap[south span-100 text-gray text-08]
-@[1-5](You can step-and-ZOOM into fenced-code blocks, source files, and Github GIST.)
-@[6,7, zoom-13](Using GitPitch live code presenting with optional annotations.)
-@[8-9, zoom-12](This means no more switching between your slide deck and IDE on stage.)
+## BEOBACHTUNG
+
+---?image=assets/img/Komet-Morgenhimmel.png
+
+---?image=assets/img/Komet-Abendhimmel.png
+
+---
+
+@snap[west span-50]
+![Fernglas](assets/img/fernglas.png)
 @snapend
 
-
----?image=assets/img/code.jpg&opacity=60&position=left&size=45% 100%
-
-@snap[east span-50 text-center]
-## Now It's **Your** Turn
+@snap[east span-50]
+## Fernglas
 @snapend
 
-@snap[south-east span-50 text-center text-06]
-[Learn More in the GitPitch Docs @fa[external-link]](https://gitpitch.com/docs)
+---
+
+@snap[east span-50]
+![Kamera](assets/img/nikon.png)
 @snapend
 
+@snap[west span-50]
+## Kamera
+@snapend
+
+---
+
+## WETTER
+
+---
+
+<iframe src="https://www.meteoblue.com/de/wetter/widget/seeing/hof_deutschland_2902768?geoloc=fixed&noground=0"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 520px; height: 698px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/de/wetter/vorhersage/seeing/hof_deutschland_2902768?utm_source=weather_widget&utm_medium=linkus&utm_content=seeing&utm_campaign=Weather%2BWidget" target="_blank">meteoblue</a></div>
+
+---
+
+<iframe src="https://www.meteoblue.com/de/wetter/widget/daily/hof_deutschland_2902768?geoloc=fixed&days=7&tempunit=CELSIUS&windunit=KILOMETER_PER_HOUR&precipunit=MILLIMETER&coloured=coloured&pictoicon=0&pictoicon=1&maxtemperature=0&maxtemperature=1&mintemperature=0&mintemperature=1&windspeed=0&windspeed=1&windgust=0&winddirection=0&winddirection=1&uv=0&humidity=0&precipitation=0&precipitation=1&precipitationprobability=0&precipitationprobability=1&spot=0&spot=1&pressure=0&layout=dark"  frameborder="0" scrolling="NO" allowtransparency="true" sandbox="allow-same-origin allow-scripts allow-popups allow-popups-to-escape-sandbox" style="width: 378px; height: 364px"></iframe><div><!-- DO NOT REMOVE THIS LINK --><a href="https://www.meteoblue.com/de/wetter/woche/hof_deutschland_2902768?utm_source=weather_widget&utm_medium=linkus&utm_content=daily&utm_campaign=Weather%2BWidget" target="_blank">meteoblue</a></div>
+
+---
+
+## INFORMATIONEN
+#### www.sternwarte-hof.de/de/komet-neowise
+
+---

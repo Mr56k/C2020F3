@@ -19,6 +19,10 @@
 
 ## BEOBACHTUNG
 
+---
+
+![Lichtkurve](assets/img/lightcurve.png)
+
 ---?image=assets/img/Komet-Morgenhimmel.png
 
 ---?image=assets/img/Komet-Abendhimmel.png
